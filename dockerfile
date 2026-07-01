@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash:9.4.2
+FROM docker.elastic.co/logstash/logstash:9.4.3
 RUN rm -f /usr/share/logstash/pipeline/logstash.conf
 
 # COPY pipeline/ /usr/share/logstash/pipeline/
